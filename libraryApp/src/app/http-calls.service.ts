@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http,Response,Headers } from '@angular/http';
-import 'rxjs/Rx';
+import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class HttpCallsService {
@@ -10,6 +10,6 @@ export class HttpCallsService {
 
   constructor(private http:Http) { }
 getBooks(){
-return this.http.get(this.booksDefaultUrl).map((data : Response) => data);
+return this.http.get(this.booksDefaultUrl);
 }
 }
