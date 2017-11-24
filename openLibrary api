@@ -1,0 +1,7 @@
+https://openlibrary.org/api/books?bibkeys=ISBN:0613840844
+http://openlibrary.org/search.json?title=love
+http://openlibrary.org/search.json?title=love&page=2
+
+https://openlibrary.org/searchjson?title=love&mode=ebooks&has_fulltext=true
+
+https://covers.openlibrary.org/b/olid/OL13520308M.jpg

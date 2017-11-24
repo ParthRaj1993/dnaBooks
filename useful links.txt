@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/38536265/display-a-loading-icon-while-images-loads

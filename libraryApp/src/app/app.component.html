@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+  <mat-card>
+    <!--<img src="https://covers.openlibrary.org/b/olid/OL13520308M.jpg" style="max-width:100%;" alt="TEST">-->
+  <mat-paginator #paginator [length]="booksLength"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              (page)="onPaginateChange($event)">
+</mat-paginator>
+  <app-home *ngFor="let b of display" [book]="b" [test]="test"></app-home>
+</mat-card>
+
